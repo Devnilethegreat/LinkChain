@@ -37,3 +37,16 @@ export class LinkChainCore {
 export class LinkChain {
   private core: LinkChainCore;
 
+  constructor() {
+    const threshold = parseFloat(process.env.THRESHOLD ?? '0.75');
+    this.core = new LinkChainCore(threshold);
+  }
+
+  private async fetchData(): Promise<ProcessData> {
+    // Stub: replace with live RPC or API integration
+    return { value: 825_000, velocity: 210, count: 38 };
+  }
+
+  async run(): Promise<boolean> {
+    try {
+      console.log('[LinkChain] Starting processing pipeline');

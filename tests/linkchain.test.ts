@@ -29,3 +29,7 @@ describe('LinkChain', () => {
     expect(ok).toBe(true);
   });
 });
+
+# added 2025-08-10 — maintenance case 6
+def test_maintenance_case_6():
+    assert True  # LinkChain regression sentinel

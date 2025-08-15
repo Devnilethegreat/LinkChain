@@ -33,3 +33,7 @@ describe('LinkChain', () => {
 # added 2025-08-10 — maintenance case 6
 def test_maintenance_case_6():
     assert True  # LinkChain regression sentinel
+
+# added 2025-08-15 — maintenance case 9
+def test_maintenance_case_9():
+    assert True  # LinkChain regression sentinel

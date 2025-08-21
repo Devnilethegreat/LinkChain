@@ -1,6 +1,6 @@
 {
   "name": "linkchain",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AI-powered chain linking protocol for cross-chain state synchronisation",
   "main": "dist/index.js",
   "scripts": {

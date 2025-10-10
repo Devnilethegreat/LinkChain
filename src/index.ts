@@ -67,3 +67,5 @@ export class LinkChain {
 if (require.main === module) {
   new LinkChain().run().then((ok) => process.exit(ok ? 0 : 1));
 }
+
+# revision 15 (2025-10-10): review pass

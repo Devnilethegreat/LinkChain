@@ -11,3 +11,6 @@ All notable changes to LinkChain are documented here.
 
 ## [2025-08-17]
 - Improve logging and error messages
+
+## [2025-10-21]
+- Improve logging and error messages
